@@ -4,7 +4,7 @@
 | Contacts |   |
 | :-: | - |
 |   | alexzlk@yandex.ru |
-|   | [@zakharychA](https://t.me/zakharychA) |
+| x | [@zakharychA](https://t.me/zakharychA) |
 |   | [8-921-750-11-90](tel:89217501190) |
 
 ---
