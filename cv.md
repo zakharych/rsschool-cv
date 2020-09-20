@@ -1,13 +1,7 @@
 # Aleksey Zakharov
 
-
-| Contacts |   |
-| :-: | - |
-|   | alexzlk@yandex.ru |
-| x | [@zakharychA](https://t.me/zakharychA) |
-|   | [8-921-750-11-90](tel:89217501190) |
-
 ---
+
 
 ## My code & woks
 
@@ -34,3 +28,22 @@ Training projects from loftschool courses:
 **Version control systems:** Git.
 
 **Graphic editor:** Photoshop, Figma
+
+---
+
+## Education
+
+2019
+[The basics of QA](https://qatester.ru/)
+
+- SQL
+- Bug Reporting
+- Test case
+- Atlassian Jira
+
+2020
+[Web Developer](https://loftschool.com/)
+
+- Basic markup    (HTML5, СSS3, Photoshop, VS Code, BAM)
+- Web development for beginers (HTML5, CSS3, SASS, jQuery, SVG, Flexbox, Terminal)
+- Vue.js Advanced Web Development (JavaScript, Vue.js, SASS, Pug, Webpack, ES6, Babel)
