@@ -1,7 +1,12 @@
 # Aleksey Zakharov
 
----
+| Contacts |   |
+| :-: | - |
+| [![Email - ](https://raw.githubusercontent.com/zakharych/rsschool-cv/gh-pages/img/email.png)](mailto:alexzlk@yandex.ru) | alexzlk@yandex.ru |
+| [![Telegram - ](https://raw.githubusercontent.com/zakharych/rsschool-cv/gh-pages/img/telegram.png)](https://t.me/zakharychA) | [@zakharychA](https://t.me/zakharychA) |
+| [![Telegram - ](https://raw.githubusercontent.com/zakharych/rsschool-cv/gh-pages/img/telephone.png)](tel:89217501190) | [8-921-750-11-90](tel:89217501190) |
 
+-----
 
 ## My code & woks
 
@@ -11,7 +16,7 @@ Landing page for HR conference  [HR API](https://hrapiconf.com/)
 
 Training projects from loftschool courses:
 
-- Adeptive training project [site porfolio](https://zakharych.github.io/LS-module3-/)
+- Adeptive training project[site porfolio](https://zakharych.github.io/LS-module3-/)
 
 ---
 
@@ -42,8 +47,10 @@ Training projects from loftschool courses:
 - Atlassian Jira
 
 2020
+
 [Web Developer](https://loftschool.com/)
 
 - Basic markup    (HTML5, СSS3, Photoshop, VS Code, BAM)
 - Web development for beginers (HTML5, CSS3, SASS, jQuery, SVG, Flexbox, Terminal)
 - Vue.js Advanced Web Development (JavaScript, Vue.js, SASS, Pug, Webpack, ES6, Babel)
+
