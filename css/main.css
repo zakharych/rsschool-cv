@@ -1,0 +1,91 @@
+body {
+  color: #60b1f4;
+  background-color: #2d2e32;
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  color: #cf947e;
+}
+
+.wrapper {
+  background-color: #25262a;
+  overflow: hidden;
+  min-height: 100%;
+  margin: 0 auto;
+  width: 1140px;
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  width: 94%;
+}
+
+.header {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.main-content {
+  margin-left: 60px;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile__pic {
+  height: 120px;
+  width: 120px;
+  overflow: hidden;
+  margin-right: 40px;
+}
+
+.profile__img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.profile__name {
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.profile__subtitle {
+  font-size: 16px;
+}
+
+.ed__title {
+  margin: 0;
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+.ed__item {
+  border: 2px solid green;
+  border-left: 15px solid green;
+  padding: 10px;
+}
+
+.course {
+  margin-left: 10px;
+}
