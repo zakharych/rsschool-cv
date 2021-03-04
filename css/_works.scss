@@ -1,0 +1,31 @@
+.works {
+  &__item {
+    border: green 2px solid;
+    position: relative;
+  }
+  &__pic {
+    bottom: 0;
+    position: absolute;
+    z-index: 10;
+    display: none;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+  }
+  &__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  &__link {
+    color: red;
+    &:hover {
+      color: green;
+      & + .works__pic {
+        transition: 1.5s;
+        display: block;
+      }
+    }
+  }
+}

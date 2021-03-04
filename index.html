@@ -9,7 +9,6 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
 
@@ -32,22 +31,120 @@
         <section class="srction contacts">
           <div class="container">
             <h2 class="contacts__title">Contacts</h2>
-            <ul class>
+            <ul class="contacts">
               <li class="contacts__item">
-                <a class="contacts__email" href="mailto:alexzlk@yandex.ru"
-                  >alexzlk@yandex.ru</a
+                <a class="contacts__link" href="https://t.me/zakharychA">
+                  <div class="contacts__icon">
+                    <img
+                      src="./img/telegram.png"
+                      alt=""
+                      class="contacts__icon-img"
+                    />
+                  </div>
+                  <div class="contacts__text">@zakharychA</div></a
                 >
               </li>
               <li class="contacts__item">
-                <a href="tel:89217501190" class="contacts__phone"
-                  >8-921-750-11-90</a
+                <a class="contacts__link" href="mailto:alexzlk@yandex.ru">
+                  <div class="contacts__icon">
+                    <img
+                      src="./img/mail.svg"
+                      alt=""
+                      class="contacts__icon-img"
+                    />
+                  </div>
+                  <div class="contacts__text">alexzlk@yandex.ru</div></a
                 >
               </li>
               <li class="contacts__item">
-                <a href="https://t.me/zakharychA" class="contacts__telegram"
-                  >Telegram</a
+                <a class="contacts__link" href="https://github.com/zakharych">
+                  <div class="contacts__icon">
+                    <img
+                      src="./img/github.svg"
+                      alt=""
+                      class="contacts__icon-img"
+                    />
+                  </div>
+                  <div class="contacts__text">zakharych</div></a
                 >
               </li>
+              <li class="contacts__item">
+                <a class="contacts__link">
+                  <div class="contacts__icon">
+                    <img
+                      src="./img/discord.svg"
+                      alt=""
+                      class="contacts__icon-img"
+                    />
+                  </div>
+                  <div class="contacts__text">@Zakharych#7687</div></a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="srction contacts">
+          <div class="container">
+            <h2 class="contacts__title">About Me</h2>
+          </div>
+        </section>
+        <section class="srction contacts">
+          <div class="container">
+            
+            <div class="ed">
+                <h2 class="ed__title">Exp</h2>
+                <ul class="ed__list">
+                  <li class="ed__item">
+                    <div class="school">
+                      <span class="school__name"> IT-Events </span>
+                      <span class="school__date"> Jil 2020 - Current </span>
+                    </div>
+                    <div class="decorate">
+                      <div class="decorate__dot"></div>
+                    </div>
+                    <div class="course">
+                      <span class="course__title"> Front-end developer (Part-time) </span>
+                      <span class="course__skills"> Ongoing training </span>
+                      <a href="https://it-events.com/company/" class="course__link"
+                        >it-events.com</a
+                      >
+                    </div>
+                  </li>
+                  <li class="ed__item">
+                    <div class="school">
+                      <span class="school__name"> Navigator </span>
+                      <span class="school__date"> Sep 2015 - Current </span>
+                    </div>
+                    <div class="decorate">
+                      <div class="decorate__dot"></div>
+                    </div>
+                    <div class="course">
+                      <span class="course__title"> Engineer </span>
+                      <span class="course__skills">
+                        Airborne Transponders testing
+                      </span>
+                      <!-- <a href="https://loftschool.com/" class="course__link"
+                        >loftschool.com</a
+                      > -->
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container">
+            <h2 class="section__title">Programming Skills & Tools</h2>
+            <ul class="skills">
+              <li class="skills__item skills__item--red">HTML5</li>
+              <li class="skills__item skills__item--blue">CSS3</li>
+              <li class="skills__item skills__item--pink">SASS</li>
+              <li class="skills__item skills__item--yellow">JavaScript</li>
+              <li class="skills__item skills__item--light-blue">Jquery</li>
+              <li class="skills__item skills__item--yellow">BAM</li>
+              <li class="skills__item skills__item--black">Git</li>
+              <li class="skills__item skills__item--blue">Photoshop</li>
+              <li class="skills__item skills__item--green">Figma</li>
             </ul>
           </div>
         </section>
@@ -55,9 +152,13 @@
           <div class="container">
             <h2 class="works__title">My code & works</h2>
             <ul class="works__list">
-              <li class="works__title">
+              <li class="works__item">
                 Landing page for IT recruitment agency
-                <a href="#">it-dominanta</a>
+                <a href="#" class="works__link">it-dominanta</a>
+
+                <div class="works__pic">
+                  <img src="./img/1.png" alt="" class="works__img" />
+                </div>
               </li>
               <li class="works__title">
                 Landing page for HR conference <a href="#">HR API</a>
@@ -80,26 +181,44 @@
               <ul class="ed__list">
                 <li class="ed__item">
                   <div class="school">
-                    <span class="school__name"> QAtesters </span>
-                    <span class="school__date"> Oct - Nov 2019 </span>
+                    <span class="school__name"> RS School </span>
+                    <span class="school__date"> Feb 2021 - Current </span>
                   </div>
-                  <div class="decorate"></div>
+                  <div class="decorate">
+                    <div class="decorate__dot"></div>
+                  </div>
                   <div class="course">
-                    <span class="course__title"> The basics of QA </span>
-                    <span class="course__skills">
-                      SQL, Bug Reporting, Test case, Atlassian Jira
-                    </span>
-                    <a href="https://qatester.ru/" class="course__link"
-                      >qatester.ru</a
+                    <span class="course__title"> JS / Front-end </span>
+                    <span class="course__skills"> Ongoing training </span>
+                    <a href="https://rs.school/" class="course__link"
+                      >rs.school</a
+                    >
+                  </div>
+                </li>
+                <li class="ed__item">
+                  <div class="school">
+                    <span class="school__name"> RS School </span>
+                    <span class="school__date"> Sep 2020 - Jan 2021 </span>
+                  </div>
+                  <div class="decorate">
+                    <div class="decorate__dot"></div>
+                  </div>
+                  <div class="course">
+                    <span class="course__title"> JS / Front-end </span>
+                    <span class="course__skills"> Team work ...... </span>
+                    <a href="https://rs.school/" class="course__link"
+                      >rs.school</a
                     >
                   </div>
                 </li>
                 <li class="ed__item">
                   <div class="school">
                     <span class="school__name"> LoftSchool </span>
-                    <span class="school__date"> Apr - Aug 2020 </span>
+                    <span class="school__date"> Apr 2020 - Aug 2020 </span>
                   </div>
-                  <div class="decorate"></div>
+                  <div class="decorate">
+                    <div class="decorate__dot"></div>
+                  </div>
                   <div class="course">
                     <span class="course__title"> Web Developer </span>
                     <span class="course__skills">
@@ -120,29 +239,19 @@
                 </li>
                 <li class="ed__item">
                   <div class="school">
-                    <span class="school__name"> RS School </span>
-                    <span class="school__date"> Sep 2020 - Jan 2021 </span>
+                    <span class="school__name"> QAtesters </span>
+                    <span class="school__date"> Oct - Nov 2019 </span>
                   </div>
-                  <div class="decorate"></div>
+                  <div class="decorate">
+                    <div class="decorate__dot"></div>
+                  </div>
                   <div class="course">
-                    <span class="course__title"> JS / Front-end </span>
-                    <span class="course__skills"> Team work ...... </span>
-                    <a href="https://rs.school/" class="course__link"
-                      >rs.school</a
-                    >
-                  </div>
-                </li>
-                <li class="ed__item">
-                  <div class="school">
-                    <span class="school__name"> RS School </span>
-                    <span class="school__date"> Feb 2021 - ... 2021 </span>
-                  </div>
-                  <div class="decorate"></div>
-                  <div class="course">
-                    <span class="course__title"> JS / Front-end </span>
-                    <span class="course__skills"> Ongoing training </span>
-                    <a href="https://rs.school/" class="course__link"
-                      >rs.school</a
+                    <span class="course__title"> The basics of QA </span>
+                    <span class="course__skills">
+                      SQL, Bug Reporting, Test case, Atlassian Jira
+                    </span>
+                    <a href="https://qatester.ru/" class="course__link"
+                      >qatester.ru</a
                     >
                   </div>
                 </li>

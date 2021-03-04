@@ -1,0 +1,22 @@
+.profile {
+    display: flex;
+    &__pic {
+      height: 120px;
+      width: 120px;
+      overflow: hidden;
+      margin-right: 40px;
+    }
+    &__img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+    &__name {
+      line-height: 1;
+      margin-bottom: 10px;
+    }
+    &__subtitle {
+      font-size: 16px;
+    }
+  }
