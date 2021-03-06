@@ -1,3 +1,6 @@
+$textLight: #cf947e;
+$headerColor: #cf947e;
+
 body {
   color: #60b1f4;
   background-color: #2d2e32;
@@ -20,7 +23,7 @@ ol {
 h1,
 h2,
 h3 {
-  color: #cf947e;
+  color: $headerColor;
 }
 .wrapper {
   background-color: #25262a;
