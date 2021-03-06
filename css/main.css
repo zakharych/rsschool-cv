@@ -381,11 +381,12 @@ h3 {
 
 .profile {
   display: flex;
+  align-items: center;
 }
 
 .profile__pic {
-  height: 120px;
-  width: 120px;
+  height: 180px;
+  width: 180px;
   overflow: hidden;
   margin-right: 40px;
 }
@@ -399,11 +400,11 @@ h3 {
 
 .profile__name {
   line-height: 1;
-  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .profile__subtitle {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .contacts {
@@ -411,7 +412,7 @@ h3 {
 }
 
 .contacts__item {
-  margin-right: 16px;
+  margin-right: 26px;
 }
 
 .contacts__item:nth-child(4) .contacts__link:hover {
