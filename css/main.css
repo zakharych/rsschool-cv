@@ -407,6 +407,11 @@ h3 {
   font-size: 20px;
 }
 
+.text__desc {
+  display: block;
+  margin-left: 20px;
+}
+
 .contacts {
   display: flex;
 }
@@ -584,6 +589,7 @@ h3 {
 
 .skills {
   display: flex;
+  margin-left: 24px;
 }
 
 .skills__item {
@@ -639,6 +645,7 @@ h3 {
 .works__category {
   margin-bottom: 10px;
   margin-left: 20px;
+  color: #cf947e;
 }
 
 .works__category::after {
@@ -650,7 +657,7 @@ h3 {
 }
 
 .works__item {
-  color: #cf947e;
+  color: #60b1f4;
   margin-left: 20px;
 }
 
@@ -666,11 +673,41 @@ h3 {
 }
 
 .works__link:hover {
-  opacity: 0.6;
+  filter: brightness(1);
 }
 
 .works__title {
   margin-bottom: 6px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.footer__item {
+  display: flex;
+  align-items: center;
+}
+
+.footer__link {
+  display: block;
+  opacity: 1;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.footer__img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.footer__date {
+  color: white;
 }
 
 .header {
