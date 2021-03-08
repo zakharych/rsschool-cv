@@ -1,0 +1,41 @@
+.works {
+  &__categorys {
+    &::after {
+      content: "}";
+      color: $textLight;
+      font-size: 24px;
+    }
+  }
+  &__category {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: $textLight;
+    &::after {
+      content: "},";
+    }
+  }
+  &__desk {
+    margin-bottom: 10px;
+  }
+  &__item {
+    color: #60b1f4;
+    margin-left: 20px;
+    &::after {
+      margin-left: -10px;
+      content: ",";
+      color: white;
+    }
+  }
+  &__link {
+    text-decoration: underline;
+
+    filter: brightness(1.5);
+    &:hover {
+    filter: brightness(1);
+    // opacity: 0.6;
+    }
+  }
+  &__title {
+    margin-bottom: 6px;
+  }
+}

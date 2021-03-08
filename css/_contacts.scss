@@ -1,0 +1,35 @@
+.contacts { 
+    display: flex;
+  &__item {
+    margin-right: 26px;
+    &:nth-child(4) {
+      & .contacts__link {
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    color: #31FB82;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &__icon {
+    margin-right: 6px;
+    height: 24px;
+    width: 24px;
+    &-img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  &__text {
+    line-height: 1;
+  }
+}

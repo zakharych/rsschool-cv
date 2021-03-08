@@ -1,0 +1,135 @@
+.ed {
+  &__title {
+    margin: 0;
+    margin-bottom: 25px;
+    line-height: 1;
+  }
+  &__item {
+    display: flex;
+    margin-bottom: 60px;
+    &:first-child {
+      & .decorate {
+        &::after {
+          content: none;
+        }
+      }
+    }
+    &:last-child {
+      margin-bottom: 0;
+      & .decorate {
+        // &__dot {
+        //   background-color: #cfc77e;
+        // }
+        &::before {
+          content: none;
+        }
+      }
+    }
+  }
+}
+.school {
+  width: 20%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  &__name {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  &__date {
+    font-size: 14px;
+    opacity: 0.6;
+  }
+}
+.decorate {
+  position: relative;
+
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: #60b1f4;
+    left: 45%;
+    top: 10px;
+  }
+  &::after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 60px;
+    background-color: #60b1f4;
+    left: 45%;
+    top: 0;
+    transform: translateY(-83%);
+  }
+  &__dot {
+    display: block;
+    flex-shrink: 0;
+    margin: 7px 50px 0 40px;
+    height: 10px;
+    width: 10px;
+    background-color: #60b1f4;
+    border: 2px solid #60b1f4;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+}
+.course {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  &__skills {
+    // margin-left: 10px;
+    font-size: 16px;
+    opacity: 0.6;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__link {
+    // margin-left: 10px;
+
+    margin-top: 12px;
+    opacity: 0.6;
+    font-size: 16px;
+    position: relative;
+    padding-left: 14px;
+    display: block;
+
+    &::before {
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-40%);
+      //content: url(../img/link.png);
+      content: "";
+      height: 12px;
+      width: 12px;
+      background: center center / contain url(../img/link.png);
+      overflow: hidden;
+      -webkit-transform: translateY(-40%);
+      -moz-transform: translateY(-40%);
+      -ms-transform: translateY(-40%);
+      -o-transform: translateY(-40%);
+    }
+    &:hover {
+      filter: brightness(1.2);
+      -webkit-filter: brightness(1.2);
+    }
+  }
+}
